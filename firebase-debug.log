@@ -1,0 +1,37 @@
+[debug] [2023-07-06T15:01:58.166Z] ----------------------------------------------------------------------
+[debug] [2023-07-06T15:01:58.168Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js apps:create web flutter_login_signup (web) --json --project=motion-capture-7473a
+[debug] [2023-07-06T15:01:58.168Z] CLI Version:   12.4.2
+[debug] [2023-07-06T15:01:58.168Z] Platform:      win32
+[debug] [2023-07-06T15:01:58.169Z] Node Version:  v18.16.0
+[debug] [2023-07-06T15:01:58.169Z] Time:          Fri Jul 07 2023 00:01:58 GMT+0900 (Japan Standard Time)
+[debug] [2023-07-06T15:01:58.169Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-06T15:01:58.175Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-06T15:01:58.176Z] > authorizing via signed-in user (albertjong112@gmail.com)
+[info] Create your WEB app in project motion-capture-7473a:
+[debug] [2023-07-06T15:01:58.179Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/motion-capture-7473a/webApps [none]
+[debug] [2023-07-06T15:01:58.179Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/motion-capture-7473a/webApps {"displayName":"flutter_login_signup (web)"}
+[debug] [2023-07-06T15:02:02.061Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/motion-capture-7473a/webApps 200
+[debug] [2023-07-06T15:02:02.061Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/motion-capture-7473a/webApps {"name":"operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi"}
+[debug] [2023-07-06T15:02:02.062Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi [none]
+[debug] [2023-07-06T15:02:05.030Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi 200
+[debug] [2023-07-06T15:02:05.030Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi {"name":"operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi"}
+[debug] [2023-07-06T15:02:05.539Z] [Create Web app Poller] Retrying task index 0
+[debug] [2023-07-06T15:02:05.539Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi [none]
+[debug] [2023-07-06T15:02:09.992Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi 200
+[debug] [2023-07-06T15:02:09.992Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi {"name":"operations/projects/motion-capture-7473a/apps/MzczZTZjOWYtYWUyOC00N2Q4LWFlOTUtZjg2ZTQzNGZmYmNi","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.WebApp","name":"projects/motion-capture-7473a/webApps/1:215530345752:web:632dfde876a54b5ffc3a6d","appId":"1:215530345752:web:632dfde876a54b5ffc3a6d","displayName":"flutter_login_signup (web)","projectId":"motion-capture-7473a","webId":"ZWVmMDNiODQtMTRjOC00YTM5LTk5YmYtODU2ZDM3MjcwOTA4","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_ccc7e0db-1c44-4355-8578-caeb526dad6a"}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase WEB App is ready! 🎉🎉🎉
+[info] 
+[info] App information:
+[info]   - App ID: 1:215530345752:web:632dfde876a54b5ffc3a6d
+[info]   - Display name: flutter_login_signup (web)
+[info] 
+[info] You can run this command to print out your new app's Google Services config:
+[info]   firebase apps:sdkconfig WEB 1:215530345752:web:632dfde876a54b5ffc3a6d
+[debug] [2023-07-06T15:02:20.010Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\nvm\v18.16.0\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
